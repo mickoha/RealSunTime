@@ -106,7 +106,6 @@ body {
 }
 
 #dateNow {
-  font-size: 3em;
   margin: 0px;
 }
 
@@ -490,7 +489,9 @@ footer p {
 }
 
 @media only screen and (max-width: 340px) {
-  #newMoonMonth, #halfMoonMonth, #fullMoonMonth {
+  #newMoonMonth,
+  #halfMoonMonth,
+  #fullMoonMonth {
     font-size: 1.2em;
   }
 }
