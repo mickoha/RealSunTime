@@ -72,6 +72,8 @@ body {
 
 #counter {
   margin: 0px;
+  padding-bottom: 4px;
+  padding-top: 4px;
 }
 
 .moonSmall {
@@ -169,7 +171,7 @@ body {
 }
 
 #counterText {
-  font-size: 2em;
+  font-size: 1.5em;
   margin: 0px;
 }
 

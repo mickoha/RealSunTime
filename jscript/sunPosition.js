@@ -10,14 +10,15 @@ function getLocation() {
   }
 }
 
+var languageTranslate =
+  window.navigator.userLanguage || window.navigator.language.slice(0, 2);
+var language =
+  (window.navigator.languages && window.navigator.languages[0]) || "en";
+
 function bringStartWindow(position) {
   var date = new Date();
   setInterval(function () {
     date = new Date();
-    // date.setDate(3);
-    // date.setMonth(2)
-    // date.setHours(1);
-    // date.setMinutes(15);
   }, 1000);
 
   bringTextSunPosition(position);
@@ -39,33 +40,27 @@ function setTimes(position, date) {
   const altitudeDegree = sunPosition.altitude * (180 / Math.PI);
 
   document.getElementById("azimuth").innerHTML =
-    azimuthDegree.toFixed(2) + "&#176";
+    numberToLocaleString(azimuthDegree, 2) + "&#176";
   document.getElementById("altitude").innerHTML =
-    altitudeDegree.toFixed(2) + "&#176";
-  document.getElementById(
-    "latitude"
-  ).innerHTML = position.coords.latitude.toFixed(6);
-  document.getElementById(
-    "longitude"
-  ).innerHTML = position.coords.longitude.toFixed(6);
-
-  let h = date.getHours();
-  let m = date.getMinutes();
-  let s = date.getSeconds();
-
-  m = checkTime(m);
-  s = checkTime(s);
+    numberToLocaleString(altitudeDegree, 2) + "&#176";
+  document.getElementById("latitude").innerHTML = numberToLocaleString(
+    position.coords.latitude,
+    6
+  );
+  document.getElementById("longitude").innerHTML = numberToLocaleString(
+    position.coords.longitude,
+    6
+  );
 
   let timeZone = document.getElementById("time");
-  timeZone.innerHTML = h + "." + m + "." + s;
+  const localeTimeZone = date.toLocaleTimeString(language);
+  timeZone.innerHTML = localeTimeZone;
 }
 
-function checkTime(i) {
-  if (i < 10) {
-    i = "0" + i;
-  }
-
-  return i;
+function numberToLocaleString(x, count) {
+  return x.toLocaleString(languageTranslate, {
+    maximumFractionDigits: count,
+  });
 }
 
 function updateSun(position, date) {
@@ -102,34 +97,32 @@ function setCounter(times, date) {
   times.nadir.setHours(times.nadir.getHours() + 24);
 
   if (date <= times.sunrise) {
-    text = arrayLang[language]["W6"];
+    text = arrayLang[languageTranslate]["W6"];
     difference =
       Math.floor(times.sunrise.getTime() / 1000) -
       Math.floor(date.getTime() / 1000);
   } else if (date <= times.solarNoon) {
-    text = arrayLang[language]["W12"];
+    text = arrayLang[languageTranslate]["W12"];
     difference =
       Math.floor(times.solarNoon.getTime() / 1000) -
       Math.floor(date.getTime() / 1000);
   } else if (date <= times.sunset) {
-    text = arrayLang[language]["W5"];
+    text = arrayLang[languageTranslate]["W5"];
     difference =
       Math.floor(times.sunset.getTime() / 1000) -
       Math.floor(date.getTime() / 1000);
   } else if (date > times.sunset && date < times.nadir) {
-    console.log("here2");
-    text = arrayLang[language]["W11"];
+    text = arrayLang[languageTranslate]["W11"];
     difference =
       Math.floor(times.nadir.getTime() / 1000) -
       Math.floor(date.getTime() / 1000);
   } else if (date < times.nadir) {
-    console.log("here");
-    text = arrayLang[language]["W11"];
+    text = arrayLang[languageTranslate]["W11"];
     difference =
       Math.floor(times.nadir.getTime() / 1000) -
       Math.floor(date.getTime() / 1000);
   } else if (date > times.nadir) {
-    text = arrayLang[language]["W6"];
+    text = arrayLang[languageTranslate]["W6"];
     difference =
       Math.floor(times.sunrise.getTime() / 1000) -
       Math.floor(date.getTime() / 1000);
@@ -140,9 +133,6 @@ function setCounter(times, date) {
   let h = timeHelp.getHours();
   let m = timeHelp.getMinutes();
   let s = timeHelp.getSeconds();
-
-  m = checkTime(m);
-  s = checkTime(s);
 
   let counterDiv = document.getElementById("counter");
   while (counterDiv.firstChild) {
@@ -157,7 +147,10 @@ function setCounter(times, date) {
   var counterTime = document.createElement("p");
   counterTime.setAttribute("id", "counterTime");
   counterTime.setAttribute("class", "notranslate");
-  counterTime.innerHTML = h + "." + m + "." + s;
+
+  const x = timeHelp.toLocaleTimeString(language, { hour12: false });
+  const text2 = (x.substring(0, 2) === "24" && x.replace(/24/, "0")) || x;
+  counterTime.innerHTML = text2;
 
   counterDiv.appendChild(counterText);
   counterDiv.appendChild(counterTime);

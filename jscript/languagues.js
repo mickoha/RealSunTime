@@ -1,6 +1,9 @@
 var language =
   window.navigator.userLanguage || window.navigator.language.slice(0, 2);
 
+var languageNumbers =
+  (window.navigator.languages && window.navigator.languages[0]) || "en";
+
 var arrayLang = {
   en: {
     W1: "Local Time",
@@ -3804,6 +3807,16 @@ export function bringTextSunPosition(position) {
   document.getElementById("linkToMoonPosition").innerHTML = result2;
 
   document.getElementById("allowGPS").innerHTML = arrayLang[language]["W23"];
+
+  const home = document.getElementById("home");
+  home.setAttribute("href", arrayLang[language]["W25"]);
+  home.innerHTML = arrayLang[language]["W24"];
+  const sponsors = document.getElementById("sponsors");
+  sponsors.setAttribute("href", arrayLang[language]["W27"]);
+  sponsors.innerHTML = arrayLang[language]["W26"];
+
+  const languages = document.getElementById("selectValue");
+  languages.innerHTML = arrayLang[language]["W28"];
 }
 
 export function bringTextMoonPosition(position) {
@@ -3895,6 +3908,16 @@ export function bringTextMoonPosition(position) {
   document.getElementById("linkToSunPosition").innerHTML = result2;
 
   document.getElementById("allowGPS").innerHTML = arrayLang[language]["W22"];
+
+  const home = document.getElementById("home");
+  home.setAttribute("href", arrayLang[language]["W25"]);
+  home.innerHTML = arrayLang[language]["W24"];
+  const sponsors = document.getElementById("sponsors");
+  sponsors.setAttribute("href", arrayLang[language]["W27"]);
+  sponsors.innerHTML = arrayLang[language]["W26"];
+
+  const languages = document.getElementById("selectValue");
+  languages.innerHTML = arrayLang[language]["W28"];
 }
 
 export function bringText(position) {
@@ -3946,7 +3969,9 @@ export function bringText(position) {
   latitudeText.innerHTML = arrayLang[language]["W3"];
   var latitudeNum = document.createElement("p");
   latitudeNum.setAttribute("id", "latitudeNum");
-  latitudeNum.innerHTML = latitude.toFixed(6);
+  latitudeNum.innerHTML = latitude.toLocaleString(languageNumbers, {
+    maximumFractionDigits: 6,
+  });
   var latitudeDiv = document.getElementById("latitudeDiv");
   latitudeDiv.appendChild(latitudeText);
   latitudeDiv.appendChild(latitudeNum);
@@ -3957,7 +3982,9 @@ export function bringText(position) {
   var longitudeNum = document.createElement("p");
   longitudeNum.setAttribute("id", "longitudeNum");
   longitudeNum.setAttribute("class", "notranslate");
-  longitudeNum.innerHTML = longitude.toFixed(6);
+  longitudeNum.innerHTML = longitude.toLocaleString(languageNumbers, {
+    maximumFractionDigits: 6,
+  });
   var longitudeDiv = document.getElementById("longitudeDiv");
   longitudeDiv.appendChild(longitudeText);
   longitudeDiv.appendChild(longitudeNum);
@@ -4001,6 +4028,16 @@ export function bringText(position) {
   document.getElementById("linkToSunPosition").innerHTML = result2;
 
   document.getElementById("allowGPS").innerHTML = arrayLang[language]["W21"];
+
+  const home = document.getElementById("home");
+  home.setAttribute("href", arrayLang[language]["W25"]);
+  home.innerHTML = arrayLang[language]["W24"];
+  const sponsors = document.getElementById("sponsors");
+  sponsors.setAttribute("href", arrayLang[language]["W27"]);
+  sponsors.innerHTML = arrayLang[language]["W26"];
+
+  const languages = document.getElementById("selectValue");
+  languages.innerHTML = arrayLang[language]["W28"];
 }
 
 export function setSunsetSunrise(apu) {

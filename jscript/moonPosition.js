@@ -10,14 +10,15 @@ function getLocation() {
   }
 }
 
+var languageTranslate =
+  window.navigator.userLanguage || window.navigator.language.slice(0, 2);
+var language =
+  (window.navigator.languages && window.navigator.languages[0]) || "en";
+
 function bringStartWindow(position) {
   var date = new Date();
   setInterval(function () {
     date = new Date();
-    // date.setDate(12);
-    // date.setMonth(11)
-    // date.setHours(17);
-    // date.setMinutes(0);
   }, 1000);
   var radius = 50;
   var offset = 2;
@@ -48,7 +49,6 @@ function updateMoon(position, date, moon) {
     arcFraction = arcFraction * -1;
     sweep = 1;
   }
-
 
   if (moonPosition.phase <= 0.5) {
     waxingArc = arcFraction * arcRadius;
@@ -110,16 +110,13 @@ function rotateMoon(position, date) {
     .getElementById("indicator")
     .setAttribute("style", "transform: rotate(" + azimuthPlace + "deg)");
 
-  
   var littleMoonRotation;
 
   if (azimuthPlace >= 0) {
-    littleMoonRotation = -Math.abs(azimuthPlace)
+    littleMoonRotation = -Math.abs(azimuthPlace);
   } else {
-    littleMoonRotation = Math.abs(azimuthPlace)
+    littleMoonRotation = Math.abs(azimuthPlace);
   }
-  
-
 
   document
     .getElementById("littleMoon")
@@ -147,10 +144,16 @@ function setMoonType(times, date) {
   // document.getElementById("littleMoon").style = `background-color: ${color}`;
 }
 
+function numberToLocaleString(x, count) {
+  return x.toLocaleString(languageTranslate, {
+    maximumFractionDigits: count,
+  });
+}
+
 function setMoonPhaseDays(date) {
   var dateThis = date;
 
-  dateThis.setSeconds(0)
+  dateThis.setSeconds(0);
 
   var dateNewMoon = [
     {
@@ -187,7 +190,6 @@ function setMoonPhaseDays(date) {
   for (var i = 0; i < 30; i++) {
     for (var a = 0; a < 24; a++) {
       for (var c = 0; c < 60; c++) {
-
         const moonIllumination = sunCalc.getMoonIllumination(dateThis);
         const phase = moonIllumination.phase;
         if (
@@ -236,7 +238,7 @@ function setMoonPhaseDays(date) {
           };
         }
 
-        dateThis.setMinutes(dateThis.getMinutes() + 1)
+        dateThis.setMinutes(dateThis.getMinutes() + 1);
       }
     }
   }
@@ -247,8 +249,10 @@ function setMoonPhaseDays(date) {
     firstMoon = true;
   }
 
-  var language =
-    window.navigator.userLanguage || window.navigator.language.slice(0, 2);
+  const options = {
+    hour: "2-digit",
+    minute: "2-digit",
+  };
 
   var newMoonDiv = document.createElement("div");
   newMoonDiv.setAttribute("id", "newMoonId");
@@ -257,24 +261,31 @@ function setMoonPhaseDays(date) {
   var newMoonText = document.createElement("p");
   newMoonText.setAttribute("id", "newMoonText");
   newMoonText.setAttribute("class", "notranslate");
-  newMoonText.innerHTML = arrayLang[language]["W16"];
+  console.log(arrayLang);
+  console.log(language);
+  newMoonText.innerHTML = arrayLang[languageTranslate]["W16"];
 
   var newMoonMonth = document.createElement("p");
   newMoonMonth.setAttribute("id", "newMoonMonth");
   newMoonMonth.setAttribute("class", "notranslate");
-  newMoonMonth.innerHTML = dateNewMoon[0].dateHelp.toLocaleString("default", {
+  newMoonMonth.innerHTML = dateNewMoon[0].dateHelp.toLocaleString(language, {
     month: "long",
   });
 
   var newMoonDate = document.createElement("p");
   newMoonDate.setAttribute("id", "newMoonDate");
   newMoonDate.setAttribute("class", "notranslate");
-  newMoonDate.innerHTML = dateNewMoon[0].dateHelp.getDate();
+  newMoonDate.innerHTML = dateNewMoon[0].dateHelp
+    .getDate()
+    .toLocaleString(language);
 
-  var newMoonTime = document.createElement("p")
-  newMoonTime.setAttribute("id", "newMoonTime")
+  var newMoonTime = document.createElement("p");
+  newMoonTime.setAttribute("id", "newMoonTime");
   newMoonTime.setAttribute("class", "notranslate");
-  newMoonTime.innerHTML = checkTime(dateNewMoon[0].dateHelp.getHours()) + ":" + checkTime(dateNewMoon[0].dateHelp.getMinutes())
+  newMoonTime.innerHTML = dateNewMoon[0].dateHelp.toLocaleString(
+    language,
+    options
+  );
 
   newMoonDiv.appendChild(newMoonText);
   newMoonDiv.appendChild(newMoonMonth);
@@ -288,19 +299,19 @@ function setMoonPhaseDays(date) {
   var halfMoonText = document.createElement("p");
   halfMoonText.setAttribute("id", "halfMoonText");
   halfMoonText.setAttribute("class", "notranslate");
-  halfMoonText.innerHTML = arrayLang[language]["W17"];
+  halfMoonText.innerHTML = arrayLang[languageTranslate]["W17"];
 
   var halfMoonMonth = document.createElement("p");
   halfMoonMonth.setAttribute("id", "halfMoonMonth");
   halfMoonMonth.setAttribute("class", "notranslate");
   if (firstMoon) {
     halfMoonMonth.innerHTML = dateFirstHalfMoon[0].dateHelp.toLocaleString(
-      "default",
+      language,
       { month: "long" }
     );
   } else {
     halfMoonMonth.innerHTML = dateSecondHalfMoon[0].dateHelp.toLocaleString(
-      "default",
+      language,
       { month: "long" }
     );
   }
@@ -309,24 +320,34 @@ function setMoonPhaseDays(date) {
   halfMoonDate.setAttribute("id", "halfMoonDate");
   halfMoonDate.setAttribute("class", "notranslate");
   if (firstMoon) {
-    halfMoonDate.innerHTML = dateFirstHalfMoon[0].dateHelp.getDate();
+    halfMoonDate.innerHTML = dateFirstHalfMoon[0].dateHelp
+      .getDate()
+      .toLocaleString(language);
   } else {
-    halfMoonDate.innerHTML = dateSecondHalfMoon[0].dateHelp.getDate();
+    halfMoonDate.innerHTML = dateSecondHalfMoon[0].dateHelp
+      .getDate()
+      .toLocaleString(language);
   }
 
-  var halfMoonTime = document.createElement("p")
-  halfMoonTime.setAttribute("id", "halfMoonTime")
+  var halfMoonTime = document.createElement("p");
+  halfMoonTime.setAttribute("id", "halfMoonTime");
   halfMoonTime.setAttribute("class", "notranslate");
   if (firstMoon) {
-    halfMoonTime.innerHTML = checkTime(dateFirstHalfMoon[0].dateHelp.getHours()) + ":" + checkTime(dateFirstHalfMoon[0].dateHelp.getMinutes())
+    halfMoonTime.innerHTML = dateFirstHalfMoon[0].dateHelp.toLocaleString(
+      language,
+      options
+    );
   } else {
-    halfMoonTime.innerHTML = checkTime(dateSecondHalfMoon[0].dateHelp.getHours()) + ":" + checkTime(dateSecondHalfMoon[0].dateHelp.getMinutes())
+    halfMoonTime.innerHTML = dateSecondHalfMoon[0].dateHelp.toLocaleString(
+      language,
+      options
+    );
   }
 
   halfMoonDiv.appendChild(halfMoonText);
   halfMoonDiv.appendChild(halfMoonMonth);
   halfMoonDiv.appendChild(halfMoonDate);
-  halfMoonDiv.appendChild(halfMoonTime)
+  halfMoonDiv.appendChild(halfMoonTime);
 
   var fullMoonDiv = document.createElement("div");
   fullMoonDiv.setAttribute("id", "fullMoonId");
@@ -335,24 +356,29 @@ function setMoonPhaseDays(date) {
   var fullMoonText = document.createElement("p");
   fullMoonText.setAttribute("id", "fullMoonText");
   fullMoonText.setAttribute("class", "notranslate");
-  fullMoonText.innerHTML = arrayLang[language]["W18"];
+  fullMoonText.innerHTML = arrayLang[languageTranslate]["W18"];
 
   var fullMoonMonth = document.createElement("p");
   fullMoonMonth.setAttribute("id", "fullMoonMonth");
   fullMoonMonth.setAttribute("class", "notranslate");
-  fullMoonMonth.innerHTML = dateFullMoon[0].dateHelp.toLocaleString("default", {
+  fullMoonMonth.innerHTML = dateFullMoon[0].dateHelp.toLocaleString(language, {
     month: "long",
   });
 
   var fullMoonDate = document.createElement("p");
   fullMoonDate.setAttribute("id", "fullMoonDate");
   fullMoonDate.setAttribute("class", "notranslate");
-  fullMoonDate.innerHTML = dateFullMoon[0].dateHelp.getDate();
+  fullMoonDate.innerHTML = dateFullMoon[0].dateHelp
+    .getDate()
+    .toLocaleString(language);
 
-  var fullMoonTime = document.createElement("p")
-  fullMoonTime.setAttribute("id", "fullMoonTime")
+  var fullMoonTime = document.createElement("p");
+  fullMoonTime.setAttribute("id", "fullMoonTime");
   fullMoonTime.setAttribute("class", "notranslate");
-  fullMoonTime.innerHTML = checkTime(dateFullMoon[0].dateHelp.getHours()) + ":" + checkTime(dateFullMoon[0].dateHelp.getMinutes())
+  fullMoonTime.innerHTML = dateFullMoon[0].dateHelp.toLocaleTimeString(
+    language,
+    options
+  );
 
   fullMoonDiv.appendChild(fullMoonText);
   fullMoonDiv.appendChild(fullMoonMonth);
@@ -377,74 +403,60 @@ function setTimes(position, date) {
   const altitudeDegree = moonPosition.altitude * (180 / Math.PI);
 
   document.getElementById("azimuth").innerHTML =
-    azimuthDegree.toFixed(2) + "&#176";
+    numberToLocaleString(azimuthDegree, 2) + "&#176";
   document.getElementById("altitude").innerHTML =
-    altitudeDegree.toFixed(2) + "&#176";
-  document.getElementById(
-    "latitude"
-  ).innerHTML = position.coords.latitude.toFixed(6);
-  document.getElementById(
-    "longitude"
-  ).innerHTML = position.coords.longitude.toFixed(6);
+    numberToLocaleString(altitudeDegree, 2) + "&#176";
+  document.getElementById("latitude").innerHTML = numberToLocaleString(
+    position.coords.latitude,
+    6
+  );
+  document.getElementById("longitude").innerHTML = numberToLocaleString(
+    position.coords.longitude,
+    6
+  );
   document.getElementById("moonDistance").innerHTML =
-    moonPosition.distance.toFixed(2) + " KM";
-
-  let h = date.getHours();
-  let m = date.getMinutes();
-  let s = date.getSeconds();
-
-  m = checkTime(m);
-  s = checkTime(s);
+    numberToLocaleString(moonPosition.distance, 2) + " KM";
 
   let timeZone = document.getElementById("time");
-  timeZone.innerHTML = h + "." + m + "." + s;
+  const localeTimeZone = date.toLocaleTimeString(language);
+  timeZone.innerHTML = localeTimeZone;
 }
 
 function setCounter(times, date) {
-  var language =
-    window.navigator.userLanguage || window.navigator.language.slice(0, 2);
   var timeHelp = new Date(null);
   var offset = timeHelp.getTimezoneOffset() * 60;
   var text;
   var difference;
-  
 
   if (times.rise && times.set) {
     if (date <= times.set && times.set < times.rise) {
-      text = arrayLang[language]["W15"];
+      text = arrayLang[languageTranslate]["W15"];
       difference =
         Math.floor(times.set.getTime() / 1000) -
         Math.floor(date.getTime() / 1000);
     } else if (date >= times.rise && date < times.set) {
-      text = arrayLang[language]["W15"];
+      text = arrayLang[languageTranslate]["W15"];
       difference =
         Math.floor(times.set.getTime() / 1000) -
         Math.floor(date.getTime() / 1000);
     } else if (date >= times.set && date >= times.rise) {
-      text = arrayLang[language]["W15"];
+      text = arrayLang[langualanguageTranslatege]["W15"];
       difference =
         Math.floor(times.set.getTime() / 1000) -
         Math.floor(date.getTime() / 1000);
     } else if (date <= times.rise) {
-      text = arrayLang[language]["W14"];
+      text = arrayLang[languageTranslate]["W14"];
       difference =
         Math.floor(times.rise.getTime() / 1000) -
         Math.floor(date.getTime() / 1000);
     } else if (date <= times.set) {
-      text = arrayLang[language]["W15"];
+      text = arrayLang[languageTranslate]["W15"];
       difference =
         Math.floor(times.set.getTime() / 1000) -
         Math.floor(date.getTime() / 1000);
     }
 
     timeHelp.setSeconds(difference + offset);
-
-    let h = timeHelp.getHours();
-    let m = timeHelp.getMinutes();
-    let s = timeHelp.getSeconds();
-
-    m = checkTime(m);
-    s = checkTime(s);
 
     let counterDiv = document.getElementById("counter");
     while (counterDiv.firstChild) {
@@ -459,21 +471,15 @@ function setCounter(times, date) {
     var counterTime = document.createElement("p");
     counterTime.setAttribute("id", "counterTime");
     counterTime.setAttribute("class", "notranslate");
-    counterTime.innerHTML = h + "." + m + "." + s;
+
+    const x = timeHelp.toLocaleTimeString(language, { hour12: false });
+    const text2 = (x.substring(0, 2) === "24" && x.replace(/24/, "0")) || x;
+    counterTime.innerHTML = text2;
 
     counterDiv.appendChild(counterText);
     counterDiv.appendChild(counterTime);
   }
 }
-
-function checkTime(i) {
-  if (i < 10) {
-    i = "0" + i;
-  }
-
-  return i;
-}
-
 
 function showError(error) {
   switch (error.code) {
