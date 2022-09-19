@@ -261,8 +261,6 @@ function setMoonPhaseDays(date) {
   var newMoonText = document.createElement("p");
   newMoonText.setAttribute("id", "newMoonText");
   newMoonText.setAttribute("class", "notranslate");
-  console.log(arrayLang);
-  console.log(language);
   newMoonText.innerHTML = arrayLang[languageTranslate]["W16"];
 
   var newMoonMonth = document.createElement("p");
