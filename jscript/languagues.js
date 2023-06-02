@@ -34,6 +34,8 @@ var arrayLang = {
     W26: "Sponsors and Donations",
     W27: "https://realsuntime.com/sponsors-and-donations.html",
     W28: "Languages",
+    W29: "My Local Weather site",
+    W30: "https://realsuntime.com/english-my-local-weather-site.html",
   },
 
   af: {
@@ -65,6 +67,8 @@ var arrayLang = {
     W26: "Borge En Donasies",
     W27: "https://realsuntime.com/afrikaans-borge-en-donasies.html",
     W28: "Tale",
+    W29: "My Plaaslike Weer webwerf",
+    W30: "https://realsuntime.com/afrikaans-my-plaaslike-weer-webwerf.html",
   },
 
   sq: {
@@ -96,6 +100,8 @@ var arrayLang = {
     W26: "Sponsorët dhe Donacionet",
     W27: "https://realsuntime.com/albanian-sponsoret-dhe-donacionet.html",
     W28: "Gjuhët",
+    W29: "Faqja ime lokale e motit",
+    W30: "https://realsuntime.com/albanian-faqja-ime-lokale-e-motit.html",
   },
 
   am: {
@@ -127,6 +133,8 @@ var arrayLang = {
     W26: "ስፖንሰሮች እና ልገሳዎች",
     W27: "https://realsuntime.com/amharic-ስፖንሰሮች-እና-ልገሳዎች.html",
     W28: "ቋንቋዎች",
+    W29: "የእኔ የአካባቢ የአየር ሁኔታ ጣቢያ",
+    W30: "https://realsuntime.com/amharic-የእኔ-የአካባቢ-የአየር-ሁኔታ-ጣቢያ.html",
   },
 
   ar: {
@@ -158,6 +166,8 @@ var arrayLang = {
     W26: "الرعاة والتبرعات",
     W27: "https://realsuntime.com/arabic-الرعاة-والتبرعات.html",
     W28: "اللغات",
+    W29: "موقع الطقس المحلي الخاص بي",
+    W30: "https://realsuntime.com/arabic-موقع-الطقس-المحلي-الخاص-بي.html",
   },
 
   hy: {
@@ -189,6 +199,8 @@ var arrayLang = {
     W26: "Հովանավորներ և նվիրատվություններ",
     W27: "https://realsuntime.com/armenian-հովանավորներ-և-նվիրատվություններ.html",
     W28: "LԼեզուներ",
+    W29: "Իմ տեղական եղանակի կայքը",
+    W30: "https://realsuntime.com/armenian-Իմ-տեղական-եղանակի-կայքը.html",
   },
 
   as: {
@@ -220,6 +232,8 @@ var arrayLang = {
     W26: "পৃষ্ঠপোষক আৰু অনুদান",
     W27: "https://realsuntime.com/assamese-পৃষ্ঠপোষক-আৰু-অনুদান.html",
     W28: "ভাষাসমূহ",
+    W29: "মোৰ স্থানীয় বতৰৰ চাইট",
+    W30: "https://realsuntime.com/assamese-মোৰ-স্থানীয়-বতৰৰ-চাইট.html",
   },
 
   ay: {
@@ -251,6 +265,8 @@ var arrayLang = {
     W26: "Patrocinadores ukat Donaciones ukanaka",
     W27: "https://realsuntime.com/aymara-patrocinadores-ukat-donaciones-ukanaka.html",
     W28: "Arunaka",
+    W29: "Nayan Local Tiempo ukan sitio ukanx",
+    W30: "https://realsuntime.com/aymara-nayan-local-tiempo-ukan-sitio-ukanx.html",
   },
 
   az: {
@@ -282,6 +298,8 @@ var arrayLang = {
     W26: "Sponsorlar Və Ianələr",
     W27: "https://realsuntime.com/azerbaijani-sponsorlar-və-ianələr.html",
     W28: "Dillər",
+    W29: "Yerli Hava saytım",
+    W30: "https://realsuntime.com/azerbaijani-yerli-hava-saytım.html",
   },
 
   bm: {
@@ -313,6 +331,8 @@ var arrayLang = {
     W26: "dɛmɛbagaw ni bolomafaraw",
     W27: "https://realsuntime.com/bambara-dɛmɛbagaw-ni-bolomafaraw.html",
     W28: "Kanw",
+    W29: "N ka Sigida Weele yɔrɔ",
+    W30: "https://realsuntime.com/bambara-n-ka-sigida-weele-yɔrɔ.html",
   },
 
   eu: {
@@ -344,6 +364,8 @@ var arrayLang = {
     W26: "Babesleak eta Dohaintzak",
     W27: "https://realsuntime.com/basque-babesleak-eta-dohaintzak.html",
     W28: "Hizkuntzak",
+    W29: "Nire tokiko eguraldi gunea",
+    W30: "https://realsuntime.com/basque-nire-tokiko-eguraldi-gunea.html",
   },
 
   be: {
@@ -375,6 +397,8 @@ var arrayLang = {
     W26: "Спонсары і ахвяраванні",
     W27: "https://realsuntime.com/belarusian-спонсары-і-ахвяраванні.html",
     W28: "Мовы",
+    W29: "Мой мясцовы сайт надвор'я",
+    W30: "https://realsuntime.com/belarusian-мой-мясцовы-сайт-надворя.html",
   },
 
   bn: {
@@ -406,6 +430,8 @@ var arrayLang = {
     W26: "স্পনসর এবং অনুদান",
     W27: "https://realsuntime.com/bengali-স্পনসর-এবং-অনুদান.html",
     W28: "ভাষা",
+    W29: "আমার স্থানীয় আবহাওয়া সাইট",
+    W30: "https://realsuntime.com/bengali-আমার-স্থানীয়-আবহাওয়া-সাইট.html",
   },
 
   bs: {
@@ -437,6 +463,8 @@ var arrayLang = {
     W26: "Sponzori i Donacije",
     W27: "https://realsuntime.com/bosnian-sponzori-i-donacije.html",
     W28: "Jezici",
+    W29: "Moja lokalna vremenska stranica",
+    W30: "https://realsuntime.com/bosnian-moja-lokalna-vremenska-stranica.html",
   },
 
   bg: {
@@ -468,6 +496,8 @@ var arrayLang = {
     W26: "Спонсори и дарения",
     W27: "https://realsuntime.com/bulgarian-спонсори-и-дарения.html",
     W28: "Езици",
+    W29: "Моят сайт за местно време",
+    W30: "https://realsuntime.com/bulgarian-моят-сайт-за-местно-време.html",
   },
 
   my: {
@@ -499,6 +529,8 @@ var arrayLang = {
     W26: "စပွန်ဆာနှင့်လှူဒါန်းမှုများ",
     W27: "hhttps://realsuntime.com/burmese-စပွန်ဆာနှင့်လှူဒါန်းမှုများ.html",
     W28: "ဘာသာစကားများ",
+    W29: "ကျွန်ုပ်၏ ဒေသဆိုင်ရာ မိုးလေဝသဆိုဒ်",
+    W30: "https://realsuntime.com/burmese-ကျွန်ုပ်၏-ဒေသန္တရ-ရာသီဥတုဆိုက်.html",
   },
 
   ca: {
@@ -530,6 +562,8 @@ var arrayLang = {
     W26: "Patrocinadors i Donacions",
     W27: "https://realsuntime.com/catalan-patrocinadors-i-donacions.html",
     W28: "Idiomes",
+    W29: "El meu lloc de temps local",
+    W30: "https://realsuntime.com/catalan-el-meu-lloc-de-temps-local.html",
   },
 
   ny: {
@@ -561,6 +595,8 @@ var arrayLang = {
     W26: "Othandizira Ndi Zopereka",
     W27: "https://realsuntime.com/chewa-othandizira-ndi-zopereka.html",
     W28: "Zinenero",
+    W29: "Tsamba Langa Lanyengo Yanyengo",
+    W30: "https://realsuntime.com/chewa-tsamba-langa-lanyengo-yanyengo.html",
   },
 
   zh: {
@@ -592,9 +628,12 @@ var arrayLang = {
     W26: "赞助商和捐赠",
     W27: "https://realsuntime.com/chinese-赞助商和捐赠.html",
     W28: "語言",
+    W29: "我的當地天氣網站",
+    W30: "https://realsuntime.com/chinese-我的當地天氣網站.html",
   },
 
   co: {
+    W1: "Ora Locale",
     W2: "U Tempu di Solar",
     W3: "Latitude",
     W4: "Longitudine",
@@ -617,11 +656,13 @@ var arrayLang = {
     W21: "Permettenu i lochi di u Sistema di Posizionamentu Globale, per uttene u vostru veru tempu solare. Stu situ web in tempu reale di u sole hè u vostru orologio solare in tempu reale cum'è una versione mobile o desktop, vi dà ancu u veru tempu solare dopu à u tramontu di notte.",
     W22: "Permettenu i lochi di u Sistema di Posizionamentu Globale per ottene a pusizione di a luna. Per ottene una pusizione precisa di a Luna, avemu bisognu di calculà parechje cose diverse, cum'è u vostru tempu è a vostra situazione geografica nantu à a terra.",
     W23: "Permettenu i lochi di u Sistema di Posizionamentu Globale per ottene a pusizione di u sole. Per ottene una pusizione precisa di u Sun, avemu bisognu di calculà parechje cose diverse, cum'è u vostru tempu è a vostra situazione geografica nantu à a terra.",
-    W24: "Real Sun Time Home page",
-    W25: "https://realsuntime.com/",
-    W26: "Sponsors and Donations",
-    W27: "https://realsuntime.com/sponsors-and-donations.html",
-    W28: "Languages",
+    W24: "Pagina iniziale di l'orologio di u Sole",
+    W25: "https://realsuntime.com/corsican-pagina-iniziale-di-lorologio-di-u-sole.html",
+    W26: "Sponsor è Donazioni",
+    W27: "https://realsuntime.com/corsican-sponsor-e-donazioni.html",
+    W28: "Lingue",
+    W29: "U mo situ di Meteo Locale",
+    W30: "https://realsuntime.com/corsican-u-mo-situ-di-meteo-Locale.html",
   },
 
   hr: {
@@ -653,6 +694,8 @@ var arrayLang = {
     W26: "Sponzori i Donacije",
     W27: "https://realsuntime.com/croatian-sponzori-i-donacije.html",
     W28: "Jezici",
+    W29: "Moja lokalna vremenska prognoza",
+    W30: "https://realsuntime.com/croatian-moja-lokalna-vremenska-prognoza.html",
   },
 
   cs: {
@@ -684,6 +727,8 @@ var arrayLang = {
     W26: "Sponzoři a Dary",
     W27: "https://realsuntime.com/czech-sponzori-a-dary.html",
     W28: "Jazyky",
+    W29: "Moje místní stránka počasí",
+    W30: "https://realsuntime.com/czech-moje-mistni-stranka-pocasi.html",
   },
 
   da: {
@@ -715,6 +760,8 @@ var arrayLang = {
     W26: "Sponsorer Og Donatione",
     W27: "https://realsuntime.com/danish-sponsorer-og-donationer.html",
     W28: "Sprog",
+    W29: "Min lokale vejrside",
+    W30: "https://realsuntime.com/danish-min-lokale-vejrside.html",
   },
 
   dv: {
@@ -741,11 +788,13 @@ var arrayLang = {
     W21: "ގްލޯބަލް ޕޮޒިޝަނިންގ ސިސްޓަމްގެ ލޮކޭޝަންތަކަށް ޓްރޫ ސޯލާ ޓައިމް ހޯދުމަށް ހުއްދަ ދިނުން. މި ރިއަލް ސަން ޓައިމް ވެބްސައިޓަކީ މޯބައިލް ނުވަތަ ޑެސްކްޓޮޕް ވަރޝަނެއްގެ ގޮތުގައި ތިބާގެ ރިއަލްޓައިމް ސަންޑިއަލް ކަމަށާއި، މިއީ ރޭގަނޑު ވަގުތުގައި އިރުއޮއްސުމަށްފަހު ޓްރޫ ސޯލާ ޓައިމް ވެސް ލިބޭނެ ވެބްސައިޓެކެވެ.",
     W22: "ގްލޯބަލް ޕޮޒިޝަނިންގ ސިސްޓަމްގެ ލޮކޭޝަންތަކަށް ހަނދުގެ ޕޮޒިޝަން ހޯދުމަށް ހުއްދަ ދިނުން. ހަނދުގެ ޞައްޙަ މަޤާމެއް ހޯދުމަށްޓަކައި، ވަގުތާއި ދުނިޔޭގައި ތިބާގެ ޖިއޮގްރަފިކަލް ލޮކޭޝަން ފަދަ ތަފާތު އެތައް ކަމެއް ހިސާބުކުރަންޖެހެއެވެ.",
     W23: "ގްލޯބަލް ޕޮޒިޝަނިންގ ސިސްޓަމްގެ ލޮކޭޝަންތަކަށް ސަން ޕޮޒިޝަން ހޯދުމަށް ހުއްދަ ދިނުން. އިރުގެ ޞައްޙަ މަޤާމެއް ހޯދުމަށްޓަކައި، ވަގުތާއި ދުނިޔޭގައި ތިބާގެ ޖިއޮގްރަފިކަލް ލޮކޭޝަން ފަދަ ތަފާތު އެތައް ކަމެއް ހިސާބުކުރަންޖެހެއެވެ.",
-    W24: "Real Sun Time Home page",
-    W25: "https://realsuntime.com/",
-    W26: "Sponsors and Donations",
-    W27: "https://realsuntime.com/sponsors-and-donations.html",
-    W28: "Languages",
+    W24: "ރިއަލް ސަން ޓައިމް ހޯމްޕޭ",
+    W25: "https://realsuntime.com/dhivehi-ރިއަލް-ސަން-ޓައިމް-ހޯމްޕޭ.html",
+    W26: "ސްޕޮންސަރުންނާއި ހަދިޔާތަކެވެ",
+    W27: "https://realsuntime.com/dhivehi-ސްޕޮންސަރުންނާއި-ހަދިޔާތަކެވެ.html",
+    W28: "ބަސްތައް",
+    W29: "އަހަރެންގެ ލޯކަލް ވެދަރ ސައިޓް",
+    W30: "https://realsuntime.com/dhivehi-އަހަރެންގެ-ލޯކަލް-ވެދަރ-ސައިޓް.html",
   },
 
   nl: {
@@ -777,6 +826,8 @@ var arrayLang = {
     W26: "Sponsors en Donaties",
     W27: "https://realsuntime.com/dutch-sponsors-en-donaties.html",
     W28: "Talen",
+    W29: "Mijn Lokale Weer-site",
+    W30: "https://realsuntime.com/dutch-mijn-Lokale-weer-site.html",
   },
 
   eo: {
@@ -798,16 +849,18 @@ var arrayLang = {
     W16: "Sekva Nova Luno",
     W17: "Sekva Duono Luno",
     W18: "Sekva Plena Luno",
-    W19: "Suno Pozicio",
+    W19: "Suna Pozicio",
     W20: "Luno Pozicio",
     W21: "Permesu lokojn de Tutmonda Pozicia Sistemo, por akiri vian veran Sunan horon. Ĉi tiu retejo pri reala Suna tempo estas via realtempa sunhorloĝo kiel poŝtelefona aŭ labortabla versio, ĝi ankaŭ donas al vi veran Sunan tempon post la Sunsubiro en la nokto.",
     W22: "Permesu lokojn de Tutmonda Pozicia Sistemo, por akiri la Lunon. Por akiri precizan Lunpozicion, ni devas kalkuli multajn malsamajn aferojn, kiel via tempo kaj via geografia loko sur la tero.",
     W23: "Permesu lokojn de Tutmonda Pozicia Sistemo, por akiri la Sunpozicion. Por akiri precizan Sunan pozicion, ni devas kalkuli multajn malsamajn aferojn, kiel via tempo kaj via geografia loko sur la tero.",
-    W24: "Real Sun Time Home page",
-    W25: "https://realsuntime.com/",
-    W26: "Sponsors and Donations",
-    W27: "https://realsuntime.com/sponsors-and-donations.html",
-    W28: "Languages",
+    W24: "Sunhorloĝo Hejmpaĝo",
+    W25: "https://realsuntime.com/esperanto-sunhorlogo-hejmpago.html",
+    W26: "Sponsoroj kaj Donacoj",
+    W27: "https://realsuntime.com/esperanto-sponsoroj-kaj-donacoj.html",
+    W28: "Lingvoj",
+    W29: "Mia Loka Veterejo",
+    W30: "https://realsuntime.com/esperanto-mia-loka-veterejo.html",
   },
 
   et: {
@@ -839,6 +892,8 @@ var arrayLang = {
     W26: "Sponsorid ja Annetused",
     W27: "https://realsuntime.com/estonian-sponsorid-ja-annetused.html",
     W28: "Keeled",
+    W29: "Minu kohaliku ilma sait",
+    W30: "https://realsuntime.com/estonian-minu-kohaliku-ilma-sait.html",
   },
 
   ee: {
@@ -870,6 +925,8 @@ var arrayLang = {
     W26: "Gakpekpeɖeŋunalawo kple nudzɔdzɔwo",
     W27: "https://realsuntime.com/ewe-gakpekpeɖeŋunalawo-kple-nudzɔdzɔwo.html",
     W28: "Gbegbɔgblɔwo",
+    W29: "Nye Nutoa Me Yame ƒe Nɔnɔme ƒe nyatakakadzraɖoƒe",
+    W30: "https://realsuntime.com/ewe-nye-nutoa-me-yame-ƒe-nɔnɔme-ƒe-nyatakakadzraɖoƒe.html",
   },
 
   tl: {
@@ -901,6 +958,8 @@ var arrayLang = {
     W26: "Mga Sponsor at Donasyon",
     W27: "https://realsuntime.com/filipino-mga-sponsor-at-donasyon.html",
     W28: "Mga wika",
+    W29: "Aking Lokal na site ng lagay ng panahon",
+    W30: "https://realsuntime.com/filipino-aking-lokal-na-site-ng-lagay-ng-panahon.html",
   },
 
   fi: {
@@ -932,6 +991,8 @@ var arrayLang = {
     W26: "Sponsorit ja Lahjoitukset",
     W27: "https://realsuntime.com/suomi-sponsorit-ja-lahjoitukset.html",
     W28: "Kielet",
+    W29: "Oma paikallinen sää sivusto",
+    W30: "https://realsuntime.com/suomi-oma-paikallinen-saa-sivusto.html",
   },
 
   fr: {
@@ -963,6 +1024,8 @@ var arrayLang = {
     W26: "Commanditaires et Dons",
     W27: "https://realsuntime.com/french-commanditaires-et-dons.html",
     W28: "Langages",
+    W29: "Mon site météo locale",
+    W30: "https://realsuntime.com/french-mon-site-meteo-locale.html",
   },
 
   gl: {
@@ -994,6 +1057,8 @@ var arrayLang = {
     W26: "Patrocinadores e Doazóns",
     W27: "https://realsuntime.com/galician-patrocinadores-e-doazons.html",
     W28: "Linguas",
+    W29: "O meu sitio de tempo local",
+    W30: "https://realsuntime.com/galician-o-meu-sitio-de-tempo-local.html",
   },
 
   ka: {
@@ -1025,6 +1090,8 @@ var arrayLang = {
     W26: "სპონსორები და შემოწირულობები",
     W27: "https://realsuntime.com/georgian-სპონსორები-და-შემოწირულობები.html",
     W28: "ენები",
+    W29: "ჩემი ადგილობრივი ამინდის საიტი",
+    W30: "https://realsuntime.com/georgian-ჩემი-ადგილობრივი-ამინდის-საიტი.html",
   },
 
   de: {
@@ -1056,6 +1123,8 @@ var arrayLang = {
     W26: "Sponsoren und Spenden",
     W27: "hhttps://realsuntime.com/german-sponsoren-und-spenden.html",
     W28: "prachen",
+    W29: "Meine lokale Wetterseite",
+    W30: "https://realsuntime.com/german-meine-lokale-wetterseite.html",
   },
 
   el: {
@@ -1087,6 +1156,8 @@ var arrayLang = {
     W26: "Χορηγοί και Δωρεές",
     W27: "https://realsuntime.com/greek-χορηγοί-και-δωρεές.html",
     W28: "Γλώσσες",
+    W29: "Ο τοπικός μου ιστότοπος καιρού",
+    W30: "https://realsuntime.com/greek-ο-τοπικός-μου-ιστότοπος-καιρού.html",
   },
 
   gn: {
@@ -1118,6 +1189,8 @@ var arrayLang = {
     W26: "Patrocinadores ha Donaciones",
     W27: "https://realsuntime.com/guarani-patrocinadores-ha-donaciones.html",
     W28: "Ñe’ẽnguéra",
+    W29: "Che sitio Tiempo Local rehegua",
+    W30: "https://realsuntime.com/guarani-che-sitio-tiempo-local-rehegua.html",
   },
 
   gu: {
@@ -1149,6 +1222,8 @@ var arrayLang = {
     W26: "પ્રાયોજકો અને દાન",
     W27: "https://realsuntime.com/gujarati-પ્રાયોજકો-અને-દાન.html",
     W28: "ભાષાઓ",
+    W29: "મારી સ્થાનિક હવામાન સાઇટ",
+    W30: "https://realsuntime.com/gujarati-મારી-સ્થાનિક-હવામાન-સાઇટ.html",
   },
 
   ht: {
@@ -1180,6 +1255,8 @@ var arrayLang = {
     W26: "Patwone ak Don",
     W27: "https://realsuntime.com/haitian-patwone-ak-don.html",
     W28: "Lang",
+    W29: "Sit tan lokal mwen an",
+    W30: "https://realsuntime.com/haitian-sit-tan-lokal-mwen-an.html",
   },
 
   ha: {
@@ -1211,6 +1288,8 @@ var arrayLang = {
     W26: "Tallafi da Gudummawa",
     W27: "https://realsuntime.com/hausa-tallafi-da-gudummawa.html",
     W28: "Harsuna",
+    W29: "Shafin Yanayi Na Gida",
+    W30: "https://realsuntime.com/hausa-shafin-yanayi-na-gida.html",
   },
 
   he: {
@@ -1242,6 +1321,8 @@ var arrayLang = {
     W26: "נותני חסות ותרומות",
     W27: "https://realsuntime.com/hebrew-נותני-חסות-ותרומות.html",
     W28: "שפות",
+    W29: "אתר מזג האוויר המקומי שלי",
+    W30: "https://realsuntime.com/hebrew-אתר-מזג-האוויר-המקומי-שלי.html",
   },
 
   hi: {
@@ -1273,6 +1354,8 @@ var arrayLang = {
     W26: "प्रायोजक और दान",
     W27: "https://realsuntime.com/hindi-प्रायोजक-और-दान.html",
     W28: "भाषाओं",
+    W29: "मेरी स्थानीय मौसम साइट",
+    W30: "https://realsuntime.com/hindi-मेरी-स्थानीय-मौसम-साइट.html",
   },
 
   hu: {
@@ -1304,6 +1387,8 @@ var arrayLang = {
     W26: "Támogatók és Adományok",
     W27: "https://realsuntime.com/hungarian-tamogatok-es-adomanyok.html",
     W28: "Nyelvek",
+    W29: "Helyi időjárás oldalam",
+    W30: "https://realsuntime.com/hungarian-helyi-idojaras-oldalam.html",
   },
 
   is: {
@@ -1335,6 +1420,8 @@ var arrayLang = {
     W26: "Styrktaraðilar og Framlög",
     W27: "https://realsuntime.com/icelandic-styrktaradilar-og-framlog.html",
     W28: "Tungumál",
+    W29: "Veðursíðan mín á staðnum",
+    W30: "https://realsuntime.com/icelandic-veðursiðan-min-a-staðnum.html",
   },
 
   ig: {
@@ -1366,6 +1453,8 @@ var arrayLang = {
     W26: "Nkwado na Onyinye",
     W27: "https://realsuntime.com/igbo-nkwado-na-onyinye.html",
     W28: "Asụsụ",
+    W29: "Saịtị ihu igwe mpaghara m",
+    W30: "https://realsuntime.com/igbo-saiti-ihu-igwe-mpaghara-m.html",
   },
 
   id: {
@@ -1397,6 +1486,8 @@ var arrayLang = {
     W26: "Sponsor Dan Donasi",
     W27: "https://realsuntime.com/indonesian-sponsor-dan-donasi.html",
     W28: "Bahasa",
+    W29: "Situs Cuaca Lokal saya",
+    W30: "https://realsuntime.com/indonesian-situs-cuaca-lokal-saya.html",
   },
 
   ga: {
@@ -1428,6 +1519,8 @@ var arrayLang = {
     W26: "Urraitheoirí agus Síntiúis",
     W27: "https://realsuntime.com/irish-urraitheoiri-agus-sintiuis.html",
     W28: "Teangacha",
+    W29: "Mo shuíomh Aimsir Áitiúil",
+    W30: "https://realsuntime.com/irish-mo-shuiomh-aimsir-aitiuil.html",
   },
 
   it: {
@@ -1459,6 +1552,8 @@ var arrayLang = {
     W26: "Sponsor e Donazioni",
     W27: "https://realsuntime.com/italian-sponsor-e-donazioni.html",
     W28: "Le lingue",
+    W29: "Il mio sito meteo locale",
+    W30: "https://realsuntime.com/italian-il-mio-sito-meteo-locale.html",
   },
 
   ja: {
@@ -1490,6 +1585,8 @@ var arrayLang = {
     W26: "スポンサーと寄付",
     W27: "https://realsuntime.com/japanese-スポンサーと寄付.html",
     W28: "言語",
+    W29: "私の地元の天気サイト",
+    W30: "https://realsuntime.com/japanese-私の地元の天気サイト.html",
   },
 
   jv: {
@@ -1521,6 +1618,8 @@ var arrayLang = {
     W26: "Sponsor lan Sumbangan",
     W27: "https://realsuntime.com/javanese-sponsor-lan-sumbangan.html",
     W28: "Basa",
+    W29: "Situs Cuaca Lokalku",
+    W30: "https://realsuntime.com/javanese-situs-cuaca-lokalku.html",
   },
 
   kn: {
@@ -1552,6 +1651,8 @@ var arrayLang = {
     W26: "ಪ್ರಾಯೋಜಕರು ಮತ್ತು ದೇಣಿಗೆ",
     W27: "https://realsuntime.com/kannada-ಪ್ರಾಯೋಜಕರು-ಮತ್ತು-ದೇಣಿಗೆ.html",
     W28: "ಭಾಷೆಗಳು",
+    W29: "ನನ್ನ ಸ್ಥಳೀಯ ಹವಾಮಾನ ಸೈಟ್",
+    W30: "https://realsuntime.com/kannada-ನನ್ನ-ಸ್ಥಳೀಯ-ಹವಾಮಾನ-ಸೈಟ್.html",
   },
 
   kk: {
@@ -1583,6 +1684,8 @@ var arrayLang = {
     W26: "Демеушілер мен қайырымдылықтар",
     W27: "https://realsuntime.com/kazakh-демеушілер-мен-қайырымдылықтар.html",
     W28: "Тілдер",
+    W29: "Менің жергілікті ауа райы сайтым",
+    W30: "https://realsuntime.com/kazakh-менің-жергілікті-ауа-райы-сайтым.html",
   },
 
   km: {
@@ -1614,6 +1717,8 @@ var arrayLang = {
     W26: "អ្នកឧបត្ថម្ភនិងអំណោយ",
     W27: "https://realsuntime.com/khmer-អ្នកឧបត្ថម្ភនិងអំណោយ.html",
     W28: "ភាសា",
+    W29: "គេហទំព័រអាកាសធាតុក្នុងស្រុករបស់ខ្ញុំ",
+    W30: "https://realsuntime.com/khmer-គេហទំព័រអាកាសធាតុក្នុងស្រុករបស់ខ្ញុំ.html",
   },
 
   rw: {
@@ -1642,9 +1747,11 @@ var arrayLang = {
     W23: "Emerera ahabigenewe isi yose, kugirango ubone umwanya wizuba. Kugirango tubone izuba ryukuri, dukeneye kubara ibintu byinshi bitandukanye, nkigihe cyawe hamwe n’ahantu uherereye ku isi.",
     W24: "Isaha y'izuba Urupapuro rwibanze",
     W25: "https://realsuntime.com/kinyarwanda-isaha-yizuba-urupapuro-rwibanze.html",
-    W26: "SAbaterankunga n'impano",
+    W26: "Abaterankunga n'impano",
     W27: "https://realsuntime.com/kinyarwanda-abaterankunga-nimpano.html",
     W28: "Indimi",
+    W29: "Urubuga rwanjye rwikirere",
+    W30: "https://realsuntime.com/kinyarwanda-urubuga-rwanjye-rwikirere.html",
   },
 
   ko: {
@@ -1676,6 +1783,8 @@ var arrayLang = {
     W26: "스폰서 및 기부",
     W27: "https://realsuntime.com/korean-스폰서-및-기부.html",
     W28: "언어",
+    W29: "내 지역 날씨 사이트",
+    W30: "https://realsuntime.com/korean-내-지역-날씨-사이트.html",
   },
 
   ku: {
@@ -1707,6 +1816,8 @@ var arrayLang = {
     W26: "Sponsorên Bexşînan",
     W27: "https://realsuntime.com/kurdish-sponsoren-bexsinan.html",
     W28: "Zimanan",
+    W29: "Malpera hewaya min a herêmî",
+    W30: "https://realsuntime.com/kurdish-malpera-hewaya-min-a-heremi.html",
   },
 
   ky: {
@@ -1738,6 +1849,8 @@ var arrayLang = {
     W26: "Демөөрчүлөр жана кайрымдуулук",
     W27: "https://realsuntime.com/kyrgyz-демөөрчүлөр-жана-кайрымдуулук.html",
     W28: "Тилдер",
+    W29: "Менин жергиликтүү аба ырайы сайтым",
+    W30: "https://realsuntime.com/kyrgyz-менин-жергиликтүү-аба-ырайы-сайтым.html",
   },
 
   la: {
@@ -1769,6 +1882,8 @@ var arrayLang = {
     W26: "Sponsors and Donations",
     W27: "https://realsuntime.com/sponsors-and-donations.html",
     W28: "Languages",
+    W29: "My Local Weather site",
+    W30: "https://realsuntime.com/english-my-local-weather-site.html",
   },
 
   lo: {
@@ -1800,6 +1915,8 @@ var arrayLang = {
     W26: "ຜູ້ອຸປະຖໍາແລະບໍລິຈາກ",
     W27: "https://realsuntime.com/lao-ຜູ້ອຸປະຖໍາແລະບໍລິຈາກ.html",
     W28: "ພາສາ",
+    W29: "ສະຖານທີ່ສະພາບອາກາດທ້ອງຖິ່ນຂອງຂ້ອຍ",
+    W30: "https://realsuntime.com/lao-ສະຖານທີ່ສະພາບອາກາດທ້ອງຖິ່ນຂອງຂ້ອຍ.html",
   },
 
   lv: {
@@ -1831,6 +1948,8 @@ var arrayLang = {
     W26: "Sponsori un Ziedojumi",
     W27: "https://realsuntime.com/latvian-sponsori-un-ziedojumi.html",
     W28: "Valodas",
+    W29: "Mana vietne Vietējie laikapstākļi",
+    W30: "https://realsuntime.com/latvian-mana-vietne-vietejie-laikapstakli.html",
   },
 
   ln: {
@@ -1862,6 +1981,8 @@ var arrayLang = {
     W26: "ba Parrains mpe ba Dons",
     W27: "https://realsuntime.com/lingala-ba-parrains-mpe-ba-dons.html",
     W28: "Minɔkɔ",
+    W29: "Site na ngai ya Météo Local",
+    W30: "https://realsuntime.com/lingala-site-na-ngai-ya-meteo-local.html",
   },
 
   lt: {
@@ -1893,6 +2014,41 @@ var arrayLang = {
     W26: "Rėmėjai Ir Aukos",
     W27: "https://realsuntime.com/lithuanian-remejai-ir-aukos.html",
     W28: "Kalbos",
+    W29: "Mano vietinių orų svetainė",
+    W30: "https://realsuntime.com/lithuanian-mano-vietiniu-oru-svetaine.html",
+  },
+
+  lg: {
+    W1: "mu kiseera ky’omu kitundu",
+    W2: "Ekiseera ky'Enjuba Ekituufu",
+    W3: "Latitude",
+    W4: "Longitude",
+    W5: "Ekiddako Enjuba okugwa",
+    W6: "Enjuba eddako okuvaayo",
+    W7: "Obuwanvu bw’olunaku",
+    W8: "Obuwanvu bw’ekiro",
+    W9: "Enkoona ya Azimuth",
+    W10: "Obugulumivu",
+    W11: "Ekiddako eky’enjuba mu ttumbi",
+    W12: "Ekiddako Akawungeezi k'Enjuba",
+    W13: "Ebanga okutuuka ku Mwezi",
+    W14: "Ekiddako Omwezi guvaayo",
+    W15: "Ekiddako Omwezi gugwa",
+    W16: "Omwezi Omuggya oguddako",
+    W17: "Ekiddako Ekitundu ky’Omwezi",
+    W18: "Omwezi Omujjuvu oguddako",
+    W19: "Ekifo ky’Enjuba",
+    W20: "Enfo y’Omwezi",
+    W21: "Kiriza ebifo bya GPS okufuna obudde obw’enjuba obw’amazima. Omukutu guno ogwa nnamaddala ogw’obudde bw’enjuba gwe ssaawa yo ey’omusana mu kiseera ekituufu nga Mobile oba desktop version, era gukuwa obudde obw’enjuba obw’amazima oluvannyuma lw’enjuba okugwa mu budde bw’ekiro.",
+    W22: "Kiriza ebifo bya GPS okufuna ekifo ky’Omwezi. Okusobola okufuna ekifo ekituufu eky’Omwezi, twetaaga okubala ebintu bingi eby’enjawulo, gamba ng’Ekiseera n’Ekifo kyo eky’Ensi ku Nsi.",
+    W23: "Kiriza ebifo bya GPS okufuna ekifo ky’enjuba. Okusobola okufuna ekifo ekituufu eky’Enjuba, twetaaga okubala ebintu bingi eby’enjawulo, gamba ng’Ekiseera n’Ekifo kyo eky’Ensi ku Nsi.",
+    W24: "Awaka w'Enjuba",
+    W25: "https://realsuntime.com/luganda-awaka-wenjuba.html",
+    W26: "Abawagira n'Okuwaayo",
+    W27: "https://realsuntime.com/luganda-abawagira-nokuwaayo.html",
+    W28: "Ennimi",
+    W29: "Omukutu gwange ogw’obudde mu kitundu kyange",
+    W30: "https://realsuntime.com/luganda-omukutu-gwange-ogwobudde-mu-kitundu-kyange.html",
   },
 
   lb: {
@@ -1924,6 +2080,8 @@ var arrayLang = {
     W26: "Sponsoren an Donen",
     W27: "https://realsuntime.com/luxembourgish-sponsoren-an-donen.html",
     W28: "Sproochen",
+    W29: "Meng Lokal Wieder Site",
+    W30: "https://realsuntime.com/luxembourgish-meng-lokal-wieder-site.html",
   },
 
   mk: {
@@ -1955,6 +2113,8 @@ var arrayLang = {
     W26: "Спонзори и донации",
     W27: "https://realsuntime.com/macedonian-спонзори-и-донации.html",
     W28: "Јазици",
+    W29: "Мојата локална метеоролошка страница",
+    W30: "https://realsuntime.com/macedonian-мојата-локална-метеоролошка-страница.html",
   },
 
   mg: {
@@ -1986,6 +2146,8 @@ var arrayLang = {
     W26: "Mpanohana Sy Fanomezana",
     W27: "https://realsuntime.com/malagasy-mpanohana-sy-fanomezana.html",
     W28: "Fiteny",
+    W29: "Ny tranokalako Weather eo an-toerana",
+    W30: "https://realsuntime.com/malagasy-ny-tranokalako-weather-eo-an-toerana.html",
   },
 
   ms: {
@@ -2017,6 +2179,8 @@ var arrayLang = {
     W26: "Penaja Dan Sumbangan",
     W27: "https://realsuntime.com/malay-penaja-dan-sumbangan.html",
     W28: "Bahasa",
+    W29: "Tapak Cuaca Tempatan Saya",
+    W30: "https://realsuntime.com/malay-tapak-cuaca-tempatan-saya.html",
   },
 
   ml: {
@@ -2048,6 +2212,8 @@ var arrayLang = {
     W26: "സ്പോൺസർമാരും സംഭാവനകളുംs",
     W27: "https://realsuntime.com/malayalam-സ്പോൺസർമാരും-സംഭാവനകളും.html",
     W28: "മലയാളം",
+    W29: "എന്റെ പ്രാദേശിക കാലാവസ്ഥാ സൈറ്റ്",
+    W30: "https://realsuntime.com/malayalam-എന്റെ-പ്രാദേശിക-കാലാവസ്ഥാ-സൈറ്റ്.html",
   },
 
   mt: {
@@ -2079,6 +2245,8 @@ var arrayLang = {
     W26: "Sponsors u Donazzjonijiet",
     W27: "https://realsuntime.com/maltese-sponsors-u-donazzjonijiet.html",
     W28: "Lingwi",
+    W29: "Is-sit tat-Temp Lokali tiegħi",
+    W30: "https://realsuntime.com/maltese-is-sit-tat-temp-lokali-tieghi.html",
   },
 
   mi: {
@@ -2105,11 +2273,13 @@ var arrayLang = {
     W21: "Whakaaetia nga waahi o te Pūnaha Turanga o te Ao, ki te tiki i to taima Solar pono. Ko tenei paetukutuku mo te wa o te Ra ko to wa-waahi-a-waa hei putanga pūkoro, papamahi ranei, ka hoatu ano ki a koe te wa o te ra i muri i te ra o te ra i te po.",
     W22: "Whakaaetia nga waahi o te Pūnaha Turanga Ao, ki te tiki i te turanga Marama. Kia tika ai te tuunga o te Marama, me tatau tatou i nga tini mea rereke, penei i to wa me to waahi matawhenua i te whenua.",
     W23: "Whakaaetia nga waahi o te Pūnaha Turanga Ao, ki te tiki i te turanga Ra. Kia tika ai te tuunga o te Ra, me tatau tatou i nga tini mea rereke, penei i to wa me to waahi matawhenua i te whenua.",
-    W24: "Real Sun Time Home page",
-    W25: "https://realsuntime.com/",
-    W26: "Sponsors and Donations",
-    W27: "https://realsuntime.com/sponsors-and-donations.html",
-    W28: "Languages",
+    W24: "wā tūturu o te rā whārangi kāinga",
+    W25: "https://realsuntime.com/maori-wa-tuturu-o-te-ra-wharangi-kainga.html",
+    W26: "Nga kaitautoko me Nga takoha",
+    W27: "https://realsuntime.com/maori-nga-kaitautoko-me-nga-takoha.html",
+    W28: "Nga reo",
+    W29: "Taku Paerangi Huarere",
+    W30: "https://realsuntime.com/maori-taku-paerangi-huarere.html",
   },
 
   mr: {
@@ -2141,6 +2311,8 @@ var arrayLang = {
     W26: "प्रायोजक आणि देणगी",
     W27: "https://realsuntime.com/marathi-प्रायोजक-आणि-देणगी.html",
     W28: "भाषा",
+    W29: "माझी स्थानिक हवामान साइट",
+    W30: "https://realsuntime.com/marathi-माझी-स्थानिक-हवामान-साइट.html",
   },
 
   mn: {
@@ -2172,6 +2344,8 @@ var arrayLang = {
     W26: "Ивээн тэтгэгч, хандив",
     W27: "https://realsuntime.com/mongolian-ивээн-тэтгэгч-хандив.html",
     W28: "Хэлнүүд",
+    W29: "Миний орон нутгийн цаг агаарын сайт",
+    W30: "https://realsuntime.com/mongolian-миний-орон-нутгийн-цаг-агаарын-сайт.html",
   },
 
   ne: {
@@ -2203,6 +2377,8 @@ var arrayLang = {
     W26: "प्रायोजक र दान",
     W27: "https://realsuntime.com/nepali-प्रायोजक-र-दान.html",
     W28: "भाषाहरु",
+    W29: "मेरो स्थानीय मौसम साइट",
+    W30: "https://realsuntime.com/nepali-मेरो-स्थानीय-मौसम-साइट.html",
   },
 
   no: {
@@ -2234,6 +2410,8 @@ var arrayLang = {
     W26: "Sponsorer og Donasjoners",
     W27: "https://realsuntime.com/norwegian-sponsorer-og-donasjoners.html",
     W28: "Språk",
+    W29: "Min lokale værside",
+    W30: "https://realsuntime.com/norwegian-min-lokale-værside.html",
   },
 
   nb: {
@@ -2265,6 +2443,8 @@ var arrayLang = {
     W26: "Sponsorer og Donasjoners",
     W27: "https://realsuntime.com/norwegian-sponsorer-og-donasjoners.html",
     W28: "Språk",
+    W29: "Min lokale værside",
+    W30: "https://realsuntime.com/norwegian-min-lokale-værside.html",
   },
 
   nn: {
@@ -2296,6 +2476,8 @@ var arrayLang = {
     W26: "Sponsorer og Donasjoners",
     W27: "https://realsuntime.com/norwegian-sponsorer-og-donasjoners.html",
     W28: "Språk",
+    W29: "Min lokale værside",
+    W30: "https://realsuntime.com/norwegian-min-lokale-værside.html",
   },
 
   or: {
@@ -2323,10 +2505,12 @@ var arrayLang = {
     W22: "ଚନ୍ଦ୍ର ସ୍ଥିତି ପାଇବାକୁ ଗ୍ଲୋବାଲ୍ ପୋଜିସନ୍ ସିଷ୍ଟମ୍ ଅବସ୍ଥାନକୁ ଅନୁମତି ଦିଅନ୍ତୁ | ଏକ ସଠିକ୍ ଚନ୍ଦ୍ର ସ୍ଥିତି ପାଇବାକୁ, ଆମକୁ ଅନେକ ଭିନ୍ନ ଜିନିଷ ଗଣନା କରିବାକୁ ପଡିବ, ଯେପରିକି ତୁମର ସମୟ ଏବଂ ପୃଥିବୀରେ ତୁମର ଅବସ୍ଥାନ |",
     W23: "ସୂର୍ଯ୍ୟ ସ୍ଥିତି ପାଇବାକୁ ଗ୍ଲୋବାଲ୍ ପୋଜିସନ୍ ସିଷ୍ଟମ୍ ଅବସ୍ଥାନକୁ ଅନୁମତି ଦିଅନ୍ତୁ | ଏକ ସଠିକ୍ ସୂର୍ଯ୍ୟ ସ୍ଥିତି ପାଇବାକୁ, ଆମକୁ ଅନେକ ଭିନ୍ନ ଜିନିଷ ଗଣନା କରିବାକୁ ପଡିବ, ଯେପରିକି ତୁମର ସମୟ ଏବଂ ପୃଥିବୀରେ ତୁମର ଅବସ୍ଥାନ |",
     W24: "ସୂର୍ଯ୍ୟ ଘଣ୍ଟା ମୂଳପୃଷ୍ଠା |",
-    W25: "https://realsuntime.com/odia-ସୂର୍ଯ୍ୟ ଘଣ୍ଟା ମୂଳପୃଷ୍ଠା |.html",
+    W25: "https://realsuntime.com/odia-ସୂର୍ଯ୍ୟ-ଘଣ୍ଟା-ସୂଚନା.html",
     W26: "ପ୍ରଯୋଜକ ଏବଂ ଦାନ",
-    W27: "https://realsuntime.com/odia-ପ୍ରଯୋଜକ ଏବଂ ଦାନ.html",
+    W27: "https://realsuntime.com/odia-ପ୍ରଯୋଜକ-ଏବଂ-ଦାନ.html",
     W28: "ଭାଷା",
+    W29: "ମୋର ସ୍ଥାନୀୟ ପାଣିପାଗ ସାଇଟ୍",
+    W30: "https://realsuntime.com/odia-ମୋର-ସ୍ଥାନୀୟ-ପାଣିପାଗ-ସାଇଟ୍.html",
   },
 
   om: {
@@ -2358,6 +2542,8 @@ var arrayLang = {
     W26: "Ispoonsarootaa fi Arjooma",
     W27: "https://realsuntime.com/oromo-ispoonsarootaa-fi-arjooma.html",
     W28: "Afaanota",
+    W29: "Marsariitii Haala Qilleensaa Naannoo koo",
+    W30: "https://realsuntime.com/oromo-marsariitii-haala-qilleensaa-naannoo-koo.html",
   },
 
   pa: {
@@ -2389,6 +2575,10 @@ var arrayLang = {
     W26: "ਪ੍ਰਾਯੋਜਕ ਅਤੇ ਦਾਨ",
     W27: "https://realsuntime.com/punjabi-ਪ੍ਰਾਯੋਜਕ-ਅਤੇ-ਦਾਨ.html",
     W28: "ਭਾਸ਼ਾਵਾਂ",
+    W26: "ਮੇਰੀ ਸਥਾਨਕ ਮੌਸਮ ਸਾਈਟ",
+    W27: "https://realsuntime.com/punjabi-ਮੇਰੀ-ਸਥਾਨਕ-ਮੌਸਮ-ਸਾਈਟ.html",
+    W29: "ਮੇਰੀ ਸਥਾਨਕ ਮੌਸਮ ਸਾਈਟ",
+    W30: "https://realsuntime.com/punjabi-ਮੇਰੀ-ਸਥਾਨਕ-ਮੌਸਮ-ਸਾਈਟ.html",
   },
 
   ps: {
@@ -2420,6 +2610,8 @@ var arrayLang = {
     W26: "ملاتړ کونکي او بسپنه ورکول",
     W27: "https://realsuntime.com/pashto-ملاتړ-کونکي-او-بسپنه-ورکول.html",
     W28: "ژبې",
+    W29: "زما د محلي هوا سایټ",
+    W30: "https://realsuntime.com/pashto-زما-د-محلي-هوا-سایټ.html",
   },
 
   fa: {
@@ -2451,6 +2643,8 @@ var arrayLang = {
     W26: "حامیان و کمکهای مال",
     W27: "https://realsuntime.com/persian-حامیان-و-کمکهای-مالی.html",
     W28: "فارسی",
+    W29: "سایت آب و هوای محلی من",
+    W30: "https://realsuntime.com/persian-سایت-آب-و-هوای-محلی-من.html",
   },
 
   pl: {
@@ -2482,6 +2676,8 @@ var arrayLang = {
     W26: "Sponsorzy i Darowizny",
     W27: "https://realsuntime.com/polish-sponsorzy-i-darowizny.html",
     W28: "Języki",
+    W29: "Moja lokalna witryna pogodowa",
+    W30: "https://realsuntime.com/polish-moja-lokalna-witryna-pogodowa.html",
   },
 
   pt: {
@@ -2513,6 +2709,8 @@ var arrayLang = {
     W26: "Patrocinadores e Doações",
     W27: "https://realsuntime.com/portuguese-patrocinadores-e-doacoes.html",
     W28: "Línguas",
+    W29: "Meu site de clima local",
+    W30: "https://realsuntime.com/portuguese-meu-site-de-clima-local.html",
   },
 
   qu: {
@@ -2539,11 +2737,13 @@ var arrayLang = {
     W21: "Saqiy Tukuy pacha Sistema de Posicionamiento maypi kasqan Chiqa Inti Pachata chaskinanpaq. Kay Chiqa Inti pacha web kitiqa Chiqa pacha Inti relojniyki huk Mobile utaq escritorio kaqpi laya hina, chaynallataqmi qusunki Chiqap Inti Pachata inti chinkaykuy qipata tuta pachapi.",
     W22: "Saqiy Sistema Global de Posicionamiento maypi kasqan Killa posiciónta tarinanpaq. Killapa chiqan kayninta tarinapaqqa achka imaymanakunatam yupananchik, ahinataq pacha hinallataq Pachapi Geográfica Ubicaciónniykipas.",
     W23: "Saqiy Global Positioning System maypi kasqan Inti posiciónta tarinanpaq. Intipa chiqan kayninta tarinapaqqa achka imaymanakunatam yupananchik, ahinataq pacha hinallataq Pachapi Geográfica Ubicaciónniykipas.",
-    W24: "Real Sun Time Home page",
-    W25: "https://realsuntime.com/",
-    W26: "Sponsors and Donations",
-    W27: "https://realsuntime.com/sponsors-and-donations.html",
-    W28: "Languages",
+    W24: "Inti Reloj qallariy p'anqa",
+    W25: "https://realsuntime.com/quechuan-inti-reloj-qallariy-panqa.html",
+    W26: "Patrocinadores y Donaciones",
+    W27: "https://realsuntime.com/quechuan-patrocinadores-y-donaciones.html",
+    W28: "Simikuna",
+    W29: "Mi Tiempo Local nisqa sitio",
+    W30: "https://realsuntime.com/quechuan-mi-tiempo-local-nisqa-sitio.html",
   },
 
   ro: {
@@ -2575,6 +2775,8 @@ var arrayLang = {
     W26: "Sponsori și Donații",
     W27: "https://realsuntime.com/romanian-sponsori-si-donatii.html",
     W28: "Limbi",
+    W29: "Site-ul meu local de vreme",
+    W30: "https://realsuntime.com/romanian-site-ul-meu-local-de-vreme.html",
   },
 
   ru: {
@@ -2603,9 +2805,11 @@ var arrayLang = {
     W23: "Разрешить местоположения глобальной системы позиционирования, чтобы получить положение Солнца. Чтобы получить точное положение Солнца, нам нужно рассчитать много разных вещей, например, ваше время и ваше географическое положение на Земле.",
     W24: "Домашняя страница истинного солнечного времени",
     W25: "https://realsuntime.com/russian-домашняя-страница-истинного-солнечного-времени.html",
-    W26: "SСпонсоры и Пожертвования",
+    W26: "Спонсоры и Пожертвования",
     W27: "https://realsuntime.com/russian-спонсоры-и-пожертвования.html",
     W28: "Языки",
+    W29: "Мой местный сайт погоды",
+    W30: "https://realsuntime.com/russian-мой-местный-сайт-погоды-предоставлен.html",
   },
 
   sm: {
@@ -2637,6 +2841,8 @@ var arrayLang = {
     W26: "Lagolago ma Foai",
     W27: "https://realsuntime.com/samoan-lagolago-ma-foai.html",
     W28: "Gagana",
+    W29: "La'u nofoaga o le Tau i le lotoifale",
+    W30: "https://realsuntime.com/samoan-lau-nofoaga-o-le-tau-i-le-lotoifale.html",
   },
 
   sa: {
@@ -2668,6 +2874,8 @@ var arrayLang = {
     W26: "Sponsors and Donations",
     W27: "https://realsuntime.com/sponsors-and-donations.html",
     W28: "Languages",
+    W29: "My Local Weather site",
+    W30: "https://realsuntime.com/english-my-local-weather-site.html",
   },
 
   sr: {
@@ -2699,6 +2907,8 @@ var arrayLang = {
     W26: "Спонзори и донације",
     W27: "https://realsuntime.com/serbian-спонзори-и-донациј.html",
     W28: "Језици",
+    W29: "Моја локална временска страница",
+    W30: "https://realsuntime.com/serbian-моја-локална-временска-страница.html",
   },
 
   gd: {
@@ -2722,14 +2932,16 @@ var arrayLang = {
     W18: "An ath Ghealach làn",
     W19: "Suidheachadh na Grèine",
     W20: "Suidheachadh Gealach",
-    W21: "Leig le ionadan Siostam Suidheachaidh Cruinne, gus an fhìor ùine grèine agad fhaighinn. Is e an làrach-lìn fìor ùine Grian seo an sundial realtime agad mar dhreach gluasadach no deasg, bidh e cuideachd a ’toirt dhut fìor ùine grèine às deidh dol fodha na grèine ann an oidhche.",
+    W21: "Leig le ionadan Siostam Suidheachaidh Cruinne, gus an fhìor ùine Grèine agad fhaighinn. Is e an làrach-lìn fìor ùine Grian seo an sundial realtime agad mar dhreach gluasadach no deasg, bidh e cuideachd a ’toirt dhut fìor ùine Grèine às deidh dol fodha na Grèine ann an oidhche.",
     W22: "Leig le ionadan Siostam Suidheachadh Cruinne, gus suidheachadh na Gealaich fhaighinn. Gus suidheachadh Gealach ceart fhaighinn, feumaidh sinn mòran de rudan eadar-dhealaichte obrachadh a-mach, leithid an ùine agad agus an àite cruinn-eòlasach agad air an talamh.",
     W23: "Leig le ionadan Siostam Suidheachadh Cruinne, gus suidheachadh na Grèine fhaighinn. Gus suidheachadh Grèine ceart fhaighinn, feumaidh sinn mòran de rudan eadar-dhealaichte obrachadh a-mach, leithid an ùine agad agus an àite cruinn-eòlasach agad air an talamh.",
-    W24: "Real Sun Time Home page",
-    W25: "https://realsuntime.com/",
-    W26: "Sponsors and Donations",
-    W27: "https://realsuntime.com/sponsors-and-donations.html",
-    W28: "Languages",
+    W24: "Duilleag dachaigh cloc na Grèine",
+    W25: "https://realsuntime.com/scottish-duilleag-dachaigh-cloc-na-greine.html",
+    W26: "Luchd-urrais agus tabhartasan",
+    W27: "https://realsuntime.com/scottish-luchd-urrais-agus-tabhartasan.html",
+    W28: "Cànanan",
+    W29: "An làrach Aimsir Ionadail agam",
+    W30: "https://realsuntime.com/scottish-an-larach-aimsir-ionadail-agam.html",
   },
 
   sn: {
@@ -2761,6 +2973,8 @@ var arrayLang = {
     W26: "Vatsigiri uye Mipiro",
     W27: "https://realsuntime.com/shona-vatsigiri-uye-mipiro.html",
     W28: "Mitauro",
+    W29: "Nzvimbo yangu yeMamiriro ekunze",
+    W30: "https://realsuntime.com/shona-nzvimbo-yangu-yemamiriro-ekunze.html",
   },
 
   sd: {
@@ -2792,6 +3006,8 @@ var arrayLang = {
     W26: "اسپانسرز ۽ عطيا ڏيڻ",
     W27: "https://realsuntime.com/sindhi-اسپانسرز-۽-عطيا-ڏيڻ.html",
     W28: "ٻوليون",
+    W29: "منهنجي مقامي موسم جي سائيٽ",
+    W30: "https://realsuntime.com/sindhi-منهنجي-مقامي-موسم-جي-سائيٽ.html",
   },
 
   si: {
@@ -2823,6 +3039,8 @@ var arrayLang = {
     W26: "අනුග්‍රාහකයන් සහ පරිත්‍යාග",
     W27: "https://realsuntime.com/sinhala-අනුග්‍රාහකයන්-සහ-පරිත්‍යාග.html",
     W28: "භාෂා",
+    W29: "මගේ දේශීය කාලගුණ අඩවිය",
+    W30: "https://realsuntime.com/sinhala-මගේ-දේශීය-කාලගුණ-අඩවිය.html",
   },
 
   sk: {
@@ -2852,8 +3070,10 @@ var arrayLang = {
     W24: "Domovská stránka Slnečného času",
     W25: "https://realsuntime.com/slovak-domovska-stranka-slnecneho-casu.html",
     W26: "Sponzori a Dary",
-    W27: "ttps://realsuntime.com/slovak-jazykove-preklady.htm",
+    W27: "https://realsuntime.com/slovak-jazykove-preklady.htm",
     W28: "Jazyky",
+    W29: "Stránka Moje miestne počasie",
+    W30: "https://realsuntime.com/slovak-stranka-moje-miestne-pocasie.html",
   },
 
   sl: {
@@ -2885,6 +3105,8 @@ var arrayLang = {
     W26: "Sponzorji in Donacije",
     W27: "https://realsuntime.com/slovenian-sponzorji-in-donacije.html",
     W28: "Jeziki",
+    W29: "Moje lokalno vremensko mesto",
+    W30: "https://realsuntime.com/slovenian-moje-lokalno-vremensko-mesto.html",
   },
 
   so: {
@@ -2916,6 +3138,8 @@ var arrayLang = {
     W26: "Kafaala qaadka iyo Deeqaha",
     W27: "https://realsuntime.com/somali-kafaala-qaadka-iyo-deeqaha.html",
     W28: "Luuqadaha",
+    W29: "Goobta Cimilada ee Deegaankayga",
+    W30: "https://realsuntime.com/somali-goobta-cimilada-ee-deegaankayga.html",
   },
 
   st: {
@@ -2947,6 +3171,8 @@ var arrayLang = {
     W26: "Batšehetsi le Menehelo",
     W27: "https://realsuntime.com/sotho-batsehetsi-le-menehelo.html",
     W28: "Lipuo",
+    W29: "Sebaka sa ka sa Boemo ba Leholimo ba Sebaka",
+    W30: "https://realsuntime.com/sotho-sebaka-sa-ka-sa-boemo-ba-leholimo-ba-sebaka.html",
   },
 
   es: {
@@ -2975,9 +3201,11 @@ var arrayLang = {
     W23: "Permitir ubicaciones del sistema de posicionamiento global para obtener la posición del Sol. Para obtener una posición precisa del Sol, necesitamos calcular muchas cosas diferentes, como su tiempo y su ubicación geográfica en la tierra.",
     W24: "Tiempo Solar Página Principal",
     W25: "https://realsuntime.com/spanish-verdadero-tiempo-solar-pagina-principal.html",
-    W26: "SPatrocinadores y Donaciones",
+    W26: "Patrocinadores y Donaciones",
     W27: "https://realsuntime.com/spanish-patrocinadores-y-donaciones.html",
     W28: "Idiomas",
+    W29: "Mi sitio Meteorológico Local",
+    W30: "https://realsuntime.com/spanish-mi-sitio-meteorologico-local.html",
   },
 
   su: {
@@ -3009,6 +3237,8 @@ var arrayLang = {
     W26: "Sponsor Jeung Sumbangan",
     W27: "https://realsuntime.com/sundanese-sponsor-jeung-sumbangan.html",
     W28: "Basa",
+    W29: "Situs Cuaca Lokal abdi",
+    W30: "https://realsuntime.com/sundanese-situs-cuaca-lokal-abdi.html",
   },
   sw: {
     W1: "Wakati Wa Ndani",
@@ -3039,6 +3269,8 @@ var arrayLang = {
     W26: "Wafadhili na Michango",
     W27: "https://realsuntime.com/swahili-wafadhili-na-michango.html",
     W28: "Lugha",
+    W29: "Tovuti Yangu ya Hali ya Hewa ya Ndani",
+    W30: "https://realsuntime.com/swahili-tovuti-yangu-ya-hali-ya-hewa-ya-ndani.html",
   },
 
   sv: {
@@ -3070,6 +3302,8 @@ var arrayLang = {
     W26: "Sponsorer och Donationer",
     W27: "https://realsuntime.com/swedish-sponsorer-och-donationer.htm",
     W28: "Språk",
+    W29: "Min lokala vädersajt",
+    W30: "https://realsuntime.com/svenska-min-lokala-vadersajt.html",
   },
 
   ta: {
@@ -3101,6 +3335,8 @@ var arrayLang = {
     W26: "ஸ்பான்சர்கள் மற்றும் நன்கொடைகள்",
     W27: "https://realsuntime.com/tamil-ஸ்பான்சர்கள்-மற்றும்-நன்கொடைகள்.html",
     W28: "மொழிகள்",
+    W29: "எனது உள்ளூர் வானிலை தளம்",
+    W30: "https://realsuntime.com/tamil-எனது-உள்ளூர்-வானிலை-தளம்.html",
   },
 
   te: {
@@ -3132,6 +3368,8 @@ var arrayLang = {
     W26: "స్పాన్సర్లు మరియు విరాళాలు",
     W27: "https://realsuntime.com/telugu-స్పాన్సర్లు-మరియు-విరాళాలు.html",
     W28: "భాషలు",
+    W29: "నా స్థానిక వాతావరణ సైట్",
+    W30: "https://realsuntime.com/telugu-నా-స్థానిక-వాతావరణ-సైట్.html",
   },
 
   tg: {
@@ -3163,6 +3401,8 @@ var arrayLang = {
     W26: "Сарпарастон ва хайрияҳо",
     W27: "https://realsuntime.com/tajik-сарпарастон-ва-хайрияҳо.html",
     W28: "Забонҳо",
+    W29: "Сайти обу ҳавои маҳаллии ман",
+    W30: "https://realsuntime.com/tajik-сайти-обу-ҳавои-маҳаллии-ман.html",
   },
 
   th: {
@@ -3194,6 +3434,8 @@ var arrayLang = {
     W26: "ผู้สนับสนุนและเงินบริจาค",
     W27: "https://realsuntime.com/thai-ผู้สนับสนุนและเงินบริจาค.html",
     W28: "ภาษา",
+    W29: "เว็บไซต์สภาพอากาศในท้องถิ่นของฉัน",
+    W30: "https://realsuntime.com/thai-เว็บไซต์สภาพอากาศในท้องถิ่นของฉัน.html",
   },
 
   ti: {
@@ -3225,6 +3467,8 @@ var arrayLang = {
     W26: "ስፖንሰራትን ወፈያታትን ምዃኖም ይፍለጥ",
     W27: "https://realsuntime.com/tigrinya-ስፖንሰራትን-ወፈያታትን-ምዃኖም-ይፍለጥ.html",
     W28: "ቋንቋታት",
+    W29: "ናተይ ናይ ከባቢ ኩነታት ኣየር መርበብ ሓበሬታ",
+    W30: "https://realsuntime.com/tigrinya-ናተይ-ናይ-ከባቢ-ኩነታት-ኣየር-መርበብ-ሓበሬታ.html",
   },
 
   ts: {
@@ -3256,6 +3500,8 @@ var arrayLang = {
     W26: "Vaseketeri ni minyikelo",
     W27: "https://realsuntime.com/tsonga-vaseketeri-ni-minyikelo.html",
     W28: "Tindzimi",
+    W29: "Sayiti ya mina ya Maxelo ya Ndhawu",
+    W30: "https://realsuntime.com/tsonga-sayiti-ya-mina-ya-maxelo-ya-ndhawu.html",
   },
 
   tk: {
@@ -3287,6 +3533,8 @@ var arrayLang = {
     W26: "Hemaýatkärler we sadakalar",
     W27: "https://realsuntime.com/turkmen-hemayatkarler-we-sadakalar.html",
     W28: "Diller",
+    W29: "Localerli howa sahypam",
+    W30: "https://realsuntime.com/turkmen-localerli-howa-sahypam.html",
   },
 
   tw: {
@@ -3313,11 +3561,13 @@ var arrayLang = {
     W21: "Ma wiase nyinaa gyinabea nhyehyɛe mmeae ahorow kwan ma wonnya Nokware Owia Bere. Saa owia bere ankasa wɛbsaet yi yɛ wo Realtime Sundial sɛ mobile anaa desktop version, ɛsan nso ma wo Nokware Owia Bere wɔ owiatɔe akyi wɔ anadwo bere mu.",
     W22: "Ma wiase nyinaa gyinabea nhyehyɛe mmeae ahorow kwan ma wonnya Ɔsram gyinabea. Sɛ yebenya Ɔsram no gyinabea a ɛyɛ pɛpɛɛpɛ a, ɛsɛ sɛ yebu nneɛma ahorow pii ho akontaa, te sɛ Bere ne wo Asase ho Beae wɔ Asase so.",
     W23: "Ma wiase nyinaa gyinabea nhyehyɛe mmeae ahorow no kwan ma wonnya owia gyinabea. Sɛ yebenya owia gyinabea a ɛyɛ pɛpɛɛpɛ a, ɛsɛ sɛ yebu nneɛma ahorow pii ho akontaa, te sɛ Bere ne Beae a Wowɔ wɔ Asase so.",
-    W24: "Real Sun Time Home page",
-    W25: "https://realsuntime.com/",
-    W26: "Sponsors and Donations",
-    W27: "https://realsuntime.com/sponsors-and-donations.html",
-    W28: "Languages",
+    W24: "Owia Bere mfiase kratafa",
+    W25: "https://realsuntime.com/twi-owia-bere-mfiase-kratafa.html",
+    W26: "wɔn a wɔboa ne ntoboa ahorow",
+    W27: "https://realsuntime.com/twi-wɔn-a-wɔboa-ne-ntoboa-ahorow.html",
+    W28: "Kasa horow",
+    W29: "Me Local wim tebea ho wɛbsaet",
+    W30: "https://realsuntime.com/twi-me-local-wim-tebea-ho-wɛbsaet.html",
   },
 
   tr: {
@@ -3349,6 +3599,8 @@ var arrayLang = {
     W26: "Sponsorlar ve Bağışlar",
     W27: "https://realsuntime.com/turkish-sponsorlar-ve-bagıslar.html",
     W28: "Diller",
+    W29: "Yerel Hava Durumu sitem",
+    W30: "https://realsuntime.com/turkish-yerel-hava-durumu-sitem.html",
   },
 
   tt: {
@@ -3380,6 +3632,8 @@ var arrayLang = {
     W26: "Иганәчеләр һәм иганәләр",
     W27: "https://realsuntime.com/tatar-иганәчеләр-һәм-иганәләр.html",
     W28: "Телләр",
+    W29: "Минем җирле һава торышы сайты",
+    W30: "https://realsuntime.com/tatar-минем-җирле-һава-торышы-сайты.html",
   },
 
   ug: {
@@ -3411,6 +3665,8 @@ var arrayLang = {
     W26: "ياردەم بەرگۈچىلەر ۋە ئىئانە",
     W27: "https://realsuntime.com/uyghur-ياردەم-بەرگۈچىلەر-ۋە-ئىئانە.html",
     W28: "تىللار",
+    W29: "مېنىڭ يەرلىك ھاۋارايى تور بېكىتى",
+    W30: "https://realsuntime.com/uyghur-مېنىڭ-يەرلىك-ھاۋارايى-تور-بېكىتى.html",
   },
 
   uk: {
@@ -3434,7 +3690,7 @@ var arrayLang = {
     W18: "Наступний повний Місяць",
     W19: "Позиція сонця",
     W20: "Позиція Місяця",
-    W21: "Дозвольте розташуванням Глобальної системи позиціонування, щоб отримати справжній сонячний час. Цей веб-сайт реального сонячного часу — це ваш сонячний годинник у режимі реального часу в мобільній або настільній версії, він також дає вам справжній сонячний час після заходу сонця в нічний час.",
+    W21: "Дозвольте розташуванням Глобальної системи позиціонування, щоб отримати справжній сонячний час. Цей веб-сайт реального сонячного часу — це ваш сонячний годинник у режимі реального часу в мобільній або настільній версії, він також дає вам справжній сонячний час після заходу сонця в нічний час.",
     W22: "Дозволити розташуванням глобальної системи позиціонування, щоб отримати положення Місяця. Щоб отримати точне положення Місяця, нам потрібно обчислити багато різних речей, наприклад, ваш час і ваше географічне розташування на Землі.",
     W23: "Дозволити розташуванням глобальної системи позиціонування, щоб отримати положення Сонця. Щоб отримати точне положення Сонця, нам потрібно обчислити багато різних речей, наприклад, ваш час і ваше географічне розташування на Землі.",
     W24: "домашня сторінка реального сонячного часу",
@@ -3442,6 +3698,8 @@ var arrayLang = {
     W26: "Спонсори та пожертви",
     W27: "https://realsuntime.com/ukrainian-інформація-про-реальний-сонячний-час.html",
     W28: "Мови",
+    W29: "Мій сайт місцевої погоди",
+    W30: "https://realsuntime.com/ukrainian-мій-місцевий-сайт-погоди.html",
   },
 
   ur: {
@@ -3473,6 +3731,8 @@ var arrayLang = {
     W26: "کفیل اور عطیات",
     W27: "https://realsuntime.com/urdu-کفیل-اور-عطیات.html",
     W28: "زبانیں",
+    W29: "میری مقامی موسم کی سائٹ",
+    W30: "https://realsuntime.com/urdu-میری-مقامی-موسم-کی-سائٹ.html",
   },
 
   uz: {
@@ -3504,6 +3764,8 @@ var arrayLang = {
     W26: "Homiylar Va Xayr-ehsonlar",
     W27: "https://realsuntime.com/uzbek-homiylar-va-xayr-ehsonlar.html",
     W28: "Tillar",
+    W29: "Mening mahalliy ob-havo saytim",
+    W30: "https://realsuntime.com/uzbek-mening-mahalliy-ob-havo-saytim.html",
   },
 
   vi: {
@@ -3535,6 +3797,8 @@ var arrayLang = {
     W26: "Nhà Tài Trợ Và Quyên Góp",
     W27: "https://realsuntime.com/vietnamese-nha-tai-tro-va-quyen-gop.html",
     W28: "Ngôn ngữ",
+    W29: "Trang web thời tiết địa phương của tôi",
+    W30: "https://realsuntime.com/vietnamese-trang-web-thời-tiết-địa-phương-của-tôi.html",
   },
 
   cy: {
@@ -3566,6 +3830,8 @@ var arrayLang = {
     W26: "Noddwyr a Rhoddion",
     W27: "https://realsuntime.com/welsh-noddwyr-a-rhoddion.html",
     W28: "Ieithoedd",
+    W29: "Fy safle Tywydd Lleol",
+    W30: "https://realsuntime.com/welsh-fy-safle-tywydd-lleol.html",
   },
 
   fy: {
@@ -3597,6 +3863,8 @@ var arrayLang = {
     W26: "Sponsors en Donaasjes",
     W27: "https://realsuntime.com/westfrisian-sponsors-en-donaasjes.html",
     W28: "Talen",
+    W29: "Myn Lokale Wetterside",
+    W30: "https://realsuntime.com/westfrisian-myn-lokale-wetterside.html",
   },
 
   xh: {
@@ -3628,6 +3896,8 @@ var arrayLang = {
     W26: "Abaxhasi NeMinikelo",
     W27: "https://realsuntime.com/xhosa-abaxhasi-neminikelo.html",
     W28: "Iilwimi",
+    W29: "Indawo yam yeMozulu yeNdawo",
+    W30: "https://realsuntime.com/xhosa-indawo-yam-yemozulu-yendawo.html",
   },
 
   yi: {
@@ -3659,6 +3929,8 @@ var arrayLang = {
     W26: "ספּאָנסאָרס און דאָוניישאַנז",
     W27: "https://realsuntime.com/yiddish-ספּאָנסאָרס-און-דאָוניישאַנז.html",
     W28: "שפּראַכן",
+    W29: "מייַן לאקאלע וועטער פּלאַץ",
+    W30: "https://realsuntime.com/yiddish-מייַן-לאקאלע-וועטער-פּלאַץ.html",
   },
 
   yo: {
@@ -3690,6 +3962,8 @@ var arrayLang = {
     W26: "Awọn onigbọwọ ati awọn ẹbun",
     W27: "https://realsuntime.com/yoruba-awon-onigbowo-ati-awon-ebun.html",
     W28: "Ede",
+    W29: "Oju-ọjọ Oju-ọjọ Agbegbe Mi",
+    W30: "https://realsuntime.com/yoruba-oju-ojo-oju-ojo-agbegbe-mi.html",
   },
 
   zu: {
@@ -3721,6 +3995,8 @@ var arrayLang = {
     W26: "Abaxhasi Neminikelo",
     W27: "https://realsuntime.com/zulu-abaxhasi-neminikelo.html",
     W28: "Izilimi",
+    W29: "Indawo Yami Yesimo Sezulu Sendawo",
+    W30: "https://realsuntime.com/zulu-indawo-yami-yesimo-sezulu-sendawo.html",
   },
 };
 
@@ -3805,6 +4081,11 @@ export function bringTextSunPosition(position) {
   var moonPosition = arrayLang[language]["W20"];
   var result2 = moonPosition.link("https://realsuntime.com/moon-position.html");
   document.getElementById("linkToMoonPosition").innerHTML = result2;
+
+  var weatherLink = document.createElement("a");
+  weatherLink.innerHTML = arrayLang[language]["W29"];
+  weatherLink.setAttribute("href", arrayLang[language]["W30"]);
+  document.getElementsByClassName("linksTo")[0].appendChild(weatherLink);
 
   document.getElementById("allowGPS").innerHTML = arrayLang[language]["W23"];
 
@@ -3906,6 +4187,11 @@ export function bringTextMoonPosition(position) {
   var sunPosition = arrayLang[language]["W19"];
   var result2 = sunPosition.link("https://realsuntime.com/sun-position.html");
   document.getElementById("linkToSunPosition").innerHTML = result2;
+
+  var weatherLink = document.createElement("a");
+  weatherLink.innerHTML = arrayLang[language]["W29"];
+  weatherLink.setAttribute("href", arrayLang[language]["W30"]);
+  document.getElementsByClassName("linksTo")[0].appendChild(weatherLink);
 
   document.getElementById("allowGPS").innerHTML = arrayLang[language]["W22"];
 
@@ -4026,6 +4312,11 @@ export function bringText(position) {
   var sunPosition = arrayLang[language]["W19"];
   var result2 = sunPosition.link("https://realsuntime.com/sun-position.html");
   document.getElementById("linkToSunPosition").innerHTML = result2;
+
+  var weatherLink = document.createElement("a");
+  weatherLink.innerHTML = arrayLang[language]["W29"];
+  weatherLink.setAttribute("href", arrayLang[language]["W30"]);
+  document.getElementsByClassName("linksTo")[0].appendChild(weatherLink);
 
   document.getElementById("allowGPS").innerHTML = arrayLang[language]["W21"];
 
